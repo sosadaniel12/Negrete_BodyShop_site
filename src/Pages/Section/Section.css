@@ -1,0 +1,13 @@
+.section {
+  /* background-image: radial-gradient(
+    circle 371px at 2.9% 14.3%,
+    rgba(255, 0, 102, 1) 0%,
+    rgba(80, 5, 35, 1) 100.7%
+  ); */
+
+  padding: 1em;
+  background-position: 10em;
+  background-size: cover;
+  height: 200px;
+  color: aliceblue;
+}

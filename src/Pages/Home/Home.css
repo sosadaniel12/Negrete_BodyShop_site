@@ -1,0 +1,59 @@
+.outerHome {
+  background-color: black;
+  color: aliceblue;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.innerTextBox {
+  background-image: radial-gradient(
+    circle 1001px at 1.9% 14.3%,
+    rgba(11, 27, 103, 1) 0%,
+    rgba(11, 27, 103, 1) 17.3%,
+    rgba(11, 27, 103, 1) 58.8%,
+    rgba(11, 27, 103, 1) 71.4%,
+    rgb(0, 0, 0) 100.2%
+  );
+  width: 50%;
+  padding: 20px;
+  display: block;
+  justify-content: left;
+}
+
+.welcome {
+  text-align: left;
+  margin-left: 1em;
+  border-bottom: floralwhite ridge 2px;
+  width: 20%;
+  padding: 10px;
+  transform: skew(-12deg);
+}
+
+.intro {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.image {
+  max-height: 400px;
+  background-blend-mode: difference;
+
+  box-shadow: rgba(255, 255, 255, 0.212) 10px 10px 0px;
+  border-radius: 3px;
+}
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+    max-height: 250px;
+    max-width: 150px;
+  }
+}
