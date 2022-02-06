@@ -1,0 +1,13 @@
+.card {
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+}

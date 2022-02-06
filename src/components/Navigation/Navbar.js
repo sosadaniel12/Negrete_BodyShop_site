@@ -12,15 +12,14 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import "./Navbar.css";
 
-const pages = ["Product", "Pricing", "Blog"];
+const pages = ["Home", "About", "Services", "Contact"];
 
 const styles = {
   barColor: {
-    backgroundColor: " rgba(80, 5, 35, 1)",
-    padding: "20px",
+    backgroundColor: " rgb(255, 4, 0)",
+    padding: "30px",
   },
   links: {
-    border: "3px solid white",
     margin: "4px",
     display: "flex",
     justifyContent: "right",
@@ -43,7 +42,7 @@ const Navbar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
@@ -88,7 +87,7 @@ const Navbar = () => {
             </Menu>
           </Box>
           <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
