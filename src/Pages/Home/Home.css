@@ -60,8 +60,7 @@
 
 @media screen and (max-width: 600px) {
   .image {
-    width: 50%;
-    margin: auto;
+    display: none;
   }
 
   .button {
