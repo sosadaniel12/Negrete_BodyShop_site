@@ -8,9 +8,10 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const pages = ["Home", "About", "Services", "Contact"];
 
@@ -94,9 +95,15 @@ const Navbar = () => {
           >
             Negrete Bodyshop
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", md: "flex", justifyContent: "right" },
+            }}
+          >
             {pages.map((page) => (
               <Button
+                className="nav-button"
                 style={styles.links}
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -108,6 +115,11 @@ const Navbar = () => {
           </Box>
         </Toolbar>
       </Container>
+      <div className="icon-container">
+        <a href="tel:9032430633" className="phone-icon">
+          <FontAwesomeIcon icon={faPhone} size="2x" />
+        </a>
+      </div>
     </AppBar>
   );
 };

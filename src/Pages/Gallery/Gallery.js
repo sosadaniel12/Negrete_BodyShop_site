@@ -19,7 +19,7 @@ const pictures = [
 const Gallery = () => {
   return (
     <div className="gallery">
-      <h1>Gallery</h1>
+      <h1 className="section-header">Gallery</h1>
       <div className="gallery-container">
         {pictures.map((picture, index) => {
           return <Gcard image={picture} alt={`picture ${index}`} key={index} />;

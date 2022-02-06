@@ -5,6 +5,8 @@ import Home from "./Pages/Home/Home";
 import Section from "./Pages/Section/Section";
 import Contact from "./Pages/Contact/Contact";
 import Gallery from "./Pages/Gallery/Gallery";
+import Header from "./components/Header/Header";
+import { Route, Navigate, HashRouter, Routes } from "react-router-dom";
 
 function App() {
   return (

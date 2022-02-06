@@ -1,6 +1,5 @@
 import "./Section.css";
 import Card from "../../components/Cards/Card";
-import { faCab } from "@fortawesome/free-solid-svg-icons";
 const services = {
   paint: {
     title: "Paint",
@@ -32,9 +31,9 @@ const Section = () => {
   return (
     <div className="section">
       <div className="section-inner">
-        <div className="section-content">
-          <h1 className="section-header">Services</h1>
-        </div>
+        <h1 className="section-header">Services</h1>
+      </div>
+      <div className="section-content">
         <div className="section-cards">
           {Object.keys(services).map((key) => (
             <Card
@@ -42,6 +41,7 @@ const Section = () => {
               title={services[key].title}
               description={services[key].description}
               image={services[key].image}
+              className="section-card"
             />
           ))}
         </div>

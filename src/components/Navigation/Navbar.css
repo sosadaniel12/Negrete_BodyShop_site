@@ -1,7 +1,23 @@
-.navbar {
-  background-color: rgb(190, 162, 162);
+.icon-contanier {
+  display: flex;
+  justify-content: right;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
-.links {
-  border: black solid 1px;
+.phone-icon {
+  color: white;
+  display: flex;
+  justify-content: right;
+
+  width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .phone-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    width: 100%;
+  }
 }
