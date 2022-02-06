@@ -1,0 +1,7 @@
+.gcard-image {
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  border: rgb(0, 0, 0) solid 1px;
+}
