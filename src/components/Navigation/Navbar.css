@@ -1,16 +1,28 @@
-.icon-contanier {
-  display: flex;
-  justify-content: right;
-  background-color: rgb(0, 0, 0);
-  color: white;
-}
-
 .phone-icon {
   color: white;
-  display: flex;
-  justify-content: right;
+  margin-top: 10px;
+}
 
-  width: 80%;
+.phone-icon:hover {
+  color: rgb(149, 25, 25);
+}
+
+.extra-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: black;
+  margin-top: 15px;
+  background-color: rgb(255, 218, 9);
+}
+.spanish-container {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.icon-container {
+  margin: 10px;
 }
 
 @media screen and (max-width: 600px) {

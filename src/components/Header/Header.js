@@ -9,18 +9,13 @@ import { Route, HashRouter, Routes } from "react-router-dom";
 const Header = () => {
   return (
     <HashRouter>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="section" element={<Section />} />
-        <Route path="gallery" element={<Gallery />} />
-        <Route path="contact" element={<Contact />} />
+        <Route exact path="/" component={<Home />} />
+        <Route path="section" component={<Section />} />
+        <Route path="gallery" component={<Gallery />} />
+        <Route path="contact" component={<Contact />} />
       </Routes>
-      <footer>
-        <Contact />
-      </footer>
     </HashRouter>
   );
 };

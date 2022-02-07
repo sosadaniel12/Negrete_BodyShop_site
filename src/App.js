@@ -11,7 +11,7 @@ import { Route, Navigate, HashRouter, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Header />
       <Home />
       <Section />
       <Gallery />

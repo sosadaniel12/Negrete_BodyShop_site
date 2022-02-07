@@ -16,9 +16,10 @@
 .section-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  margin: 1em;
+  flex-wrap: wrap;
+  gap: 1em;
   text-align: center;
 }
 
@@ -41,7 +42,6 @@
   }
 
   .section-cards > * {
-    width: 50%;
     margin-top: 2em;
   }
 }

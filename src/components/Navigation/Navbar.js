@@ -18,7 +18,7 @@ const pages = ["Home", "About", "Services", "Contact"];
 const styles = {
   barColor: {
     backgroundColor: " rgb(255, 4, 0)",
-    padding: "30px",
+    paddingTop: "15px",
   },
   links: {
     margin: "4px",
@@ -115,10 +115,15 @@ const Navbar = () => {
           </Box>
         </Toolbar>
       </Container>
-      <div className="icon-container">
-        <a href="tel:9032430633" className="phone-icon">
-          <FontAwesomeIcon icon={faPhone} size="2x" />
-        </a>
+      <div className="extra-container">
+        <div className="icon-container">
+          <a href="tel:9032430498">
+            <FontAwesomeIcon icon={faPhone} size="2x" />
+          </a>
+        </div>
+        <div className="spanish-container">
+          <p className="spanish">Hablamos en Español</p>
+        </div>
       </div>
     </AppBar>
   );

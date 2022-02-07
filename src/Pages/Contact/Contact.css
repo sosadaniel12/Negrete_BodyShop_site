@@ -1,24 +1,27 @@
 .footer {
   background-color: rgba(255, 255, 255, 0.198);
   color: rgb(255, 255, 255);
-  padding: 1em;
 }
 
 .contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: stretch;
+  padding: 5px;
+  font-size: 15px;
+  width: 100%;
+  margin: 0;
 }
 
 .contact-header {
-  font-size: 2em;
+  font-size: 1.4em;
   color: white;
 }
 
 .info-links {
   color: white;
 
-  text-underline-offset: 4px;
+  text-decoration: none;
   margin: 10px;
 }
 
@@ -28,8 +31,23 @@
 
 .copyright {
   color: white;
-  font-size: 0.8em;
+  font-size: 13px;
   text-align: center;
+
+  width: 15%;
+  margin: auto;
+}
+
+.border {
+  border-right: solid 1px rgb(255, 255, 255);
+
+  padding: 10px;
+  margin-right: 1em;
+}
+
+.hours,
+.contact-location,
+.info {
 }
 
 @media (max-width: 568px) {

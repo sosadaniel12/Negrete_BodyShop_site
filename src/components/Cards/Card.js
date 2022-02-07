@@ -8,7 +8,9 @@ const Card = ({ title, description, image }) => {
       </div>
       <div className="card-text">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <div className="card-description">
+          <p className="text">{description}</p>
+        </div>
       </div>
     </div>
   );
