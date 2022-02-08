@@ -25,17 +25,11 @@ const services = {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxdMW4V_P5-cuVpDrJ_QiUvVr9FILL63IBKQ&usqp=CAU",
   },
-  freeEstimates: {
-    title: "Free Estimates",
-    description: "Free Estimates for your vehicle with our quality paint.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxdMW4V_P5-cuVpDrJ_QiUvVr9FILL63IBKQ&usqp=CAU",
-  },
 };
 
 const Section = () => {
   return (
-    <div className="section">
+    <div className="section" id="Services">
       <div className="section-inner">
         <h1 className="section-header">Services</h1>
       </div>

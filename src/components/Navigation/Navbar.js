@@ -13,17 +13,18 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-const pages = ["Home", "About", "Services", "Contact"];
+const pages = ["Home", "Services", "Gallery", "Contact"];
 
 const styles = {
   barColor: {
-    backgroundColor: " rgb(255, 4, 0)",
+    backgroundColor: " rgba(255, 4, 0, 0.876)",
     paddingTop: "15px",
   },
   links: {
     margin: "4px",
     display: "flex",
     justifyContent: "right",
+    fontWeight: "600",
   },
 };
 
@@ -96,28 +97,32 @@ const Navbar = () => {
             Negrete Bodyshop
           </Typography>
           <Box
+            className="nav-box"
             sx={{
               flexGrow: 1,
               display: { xs: "none", md: "flex", justifyContent: "right" },
             }}
           >
-            {pages.map((page) => (
-              <Button
-                className="nav-button"
-                style={styles.links}
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                {page}
-              </Button>
-            ))}
+            <div className="nav-links">
+              {pages.map((page) => (
+                <a
+                  href={`#${page}`}
+                  key={page}
+                  className="nav-link"
+                  style={styles.links}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  {page}
+                </a>
+              ))}
+            </div>
           </Box>
         </Toolbar>
       </Container>
       <div className="extra-container">
         <div className="icon-container">
-          <a href="tel:9032430498">
+          <a href="tel:9032430498" className="phone-icon">
             <FontAwesomeIcon icon={faPhone} size="2x" />
           </a>
         </div>

@@ -16,9 +16,8 @@
 .section-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+
   gap: 1em;
   text-align: center;
 }

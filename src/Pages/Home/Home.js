@@ -2,11 +2,10 @@ import "./Home.css";
 import { useState, useEffect } from "react";
 import shopImage from "../../assets/shop_image.jpg";
 
-
 const Home = () => {
   return (
     <>
-      <div className="outerHome">
+      <div className="outerHome" id="Home">
         <div className="innerTextBox">
           <h1 className="welcome">Welcome.</h1>
           <p className="intro">
@@ -17,8 +16,8 @@ const Home = () => {
           <a href="tel:9032430633">
             <button className="button">Call Now</button>
           </a>
+          <img src={shopImage} alt="bodyshop" className="image" />
         </div>
-        <img src={shopImage} alt="bodyshop" className="image" />
       </div>
     </>
   );

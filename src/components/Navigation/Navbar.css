@@ -1,5 +1,5 @@
 .phone-icon {
-  color: white;
+  color: rgb(255, 0, 0);
   margin-top: 10px;
 }
 
@@ -12,17 +12,45 @@
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-top: 15px;
-  background-color: rgb(255, 218, 9);
+  background-color: rgb(77, 90, 95);
 }
 .spanish-container {
   font-size: 15px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .icon-container {
   margin: 10px;
+}
+
+.nav-box {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+
+  padding: 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-underline-offset: 3px;
 }
 
 @media screen and (max-width: 600px) {

@@ -45,11 +45,6 @@
   margin-right: 1em;
 }
 
-.hours,
-.contact-location,
-.info {
-}
-
 @media (max-width: 568px) {
   .contact {
     display: flex;
