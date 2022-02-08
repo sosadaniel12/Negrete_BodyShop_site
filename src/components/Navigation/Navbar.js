@@ -64,6 +64,7 @@ const Navbar = () => {
               <MenuIcon />
             </IconButton>
             <Menu
+              className="mobile-menu"
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
@@ -82,9 +83,14 @@ const Navbar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <a
+                  key={page}
+                  className="mobile-links"
+                  href={`#${page}`}
+                  onClick={handleCloseNavMenu}
+                >
                   <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
+                </a>
               ))}
             </Menu>
           </Box>

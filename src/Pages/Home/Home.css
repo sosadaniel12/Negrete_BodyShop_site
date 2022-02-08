@@ -14,8 +14,8 @@
   border-radius: 0 0 85% 85% / 30%;
 }
 
-.innerTextBox {
-  width: 50%;
+.OuterTextBox {
+  /* width: 50%;
   padding: 20px;
   display: block;
   justify-content: left;
@@ -26,7 +26,8 @@
   border: 1px solid rgba(209, 213, 219, 0.3);
   border-radius: 3px;
   border: 1px solid rgba(209, 213, 219, 0.3);
-  color: black;
+  color: black; */
+  margin-right: 1em;
 }
 
 .welcome {
@@ -68,7 +69,15 @@
   border: rgb(16, 16, 77) solid 1px;
 }
 
-@media screen and (max-width: 600px) {
+.phone-button {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .welcome {
+    width: 52%;
+  }
+
   .image {
     display: none;
   }

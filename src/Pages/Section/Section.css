@@ -6,10 +6,10 @@
 .section-header {
   font-size: 2em;
   text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-color: aliceblue;
+
+  padding: 10px;
   margin-bottom: 1.3em;
+
   transform: skew(-12deg);
 }
 
@@ -17,7 +17,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
   gap: 1em;
   text-align: center;
 }

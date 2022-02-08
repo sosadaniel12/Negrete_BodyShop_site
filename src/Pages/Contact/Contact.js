@@ -19,7 +19,7 @@ const Contact = () => {
             </a>
           </p>
 
-          <a href="tel:9032430633">
+          <a href="tel:9032430633" className="phone-button">
             <button className="button">Call Now</button>
           </a>
         </div>
