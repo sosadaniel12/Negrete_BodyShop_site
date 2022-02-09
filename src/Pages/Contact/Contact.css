@@ -38,7 +38,7 @@
 }
 
 .border {
-  border-right: solid 1px rgb(255, 255, 255);
+  border-right: dotted 1px rgb(255, 255, 255);
 
   padding: 10px;
   margin-right: 1em;

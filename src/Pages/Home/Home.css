@@ -46,9 +46,7 @@
 
 .image {
   max-height: 400px;
-  background-blend-mode: difference;
-
-  border-radius: 3px;
+  border: white solid 2px;
 }
 
 .button {

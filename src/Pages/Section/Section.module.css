@@ -1,0 +1,42 @@
+.section {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+}
+
+.sectionHeader {
+  font-size: 2em;
+  text-align: center;
+
+  padding: 10px;
+
+  transform: skew(-12deg);
+}
+
+.sectionCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .sectionCards {
+  }
+}
+
+/* @media screen and (max-width: 1000px) {
+  .sectionCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+} */
