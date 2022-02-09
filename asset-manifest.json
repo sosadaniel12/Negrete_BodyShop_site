@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Negrete_BodyShop_site/static/css/main.56079de2.css",
-    "main.js": "/Negrete_BodyShop_site/static/js/main.c5b6fb95.js",
+    "main.css": "/Negrete_BodyShop_site/static/css/main.ee60fffb.css",
+    "main.js": "/Negrete_BodyShop_site/static/js/main.93b52217.js",
     "static/js/787.23170c61.chunk.js": "/Negrete_BodyShop_site/static/js/787.23170c61.chunk.js",
     "static/media/shop_image.jpg": "/Negrete_BodyShop_site/static/media/shop_image.7995d73afb38da056fc8.jpg",
     "index.html": "/Negrete_BodyShop_site/index.html",
-    "main.56079de2.css.map": "/Negrete_BodyShop_site/static/css/main.56079de2.css.map",
-    "main.c5b6fb95.js.map": "/Negrete_BodyShop_site/static/js/main.c5b6fb95.js.map",
+    "main.ee60fffb.css.map": "/Negrete_BodyShop_site/static/css/main.ee60fffb.css.map",
+    "main.93b52217.js.map": "/Negrete_BodyShop_site/static/js/main.93b52217.js.map",
     "787.23170c61.chunk.js.map": "/Negrete_BodyShop_site/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56079de2.css",
-    "static/js/main.c5b6fb95.js"
+    "static/css/main.ee60fffb.css",
+    "static/js/main.93b52217.js"
   ]
 }
